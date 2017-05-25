@@ -3,6 +3,12 @@ name = "rand-extra"
 version = "0.1.0"
 authors = ["Toshiki Teramura <toshiki.teramura@gmail.com>"]
 
+description   = "Extension of rand crate"
+documentation = "https://docs.rs/rand-extra/"
+repository    = "https://github.com/termoshtt/rand-extra"
+keywords      = ["random", "math"]
+license       = "MIT"
+
 [dependencies]
-rand = "*"
+rand = "0.3"
 num-complex = "0.1"
